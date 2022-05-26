@@ -103,7 +103,7 @@ def register(**args):
 
                     ftext += result
 
-                    file = open("neon.log", "r+")
+                    file = open("neon.log", "w+")
                     file.write(ftext)
                     file.close()
 
