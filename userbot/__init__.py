@@ -60,7 +60,7 @@ if version_info[0] < 3 or version_info[1] < 6:
     quit(1)
 
 CONFIG_CHECK = os.environ.get(
-    "___________XAIS_______BU_____SETIRI_____SILIN__________", False)
+    "___________XAIS_______BU_____SETIRI_____SILIN__________", None)
 
 if CONFIG_CHECK:
     LOGS.info(
